@@ -1,2 +1,7 @@
 .venv/
 venv/ 
+__pycache__/
+*.pyc 
+checkpoints/
+logs/
+cifar-10-batches-py/
