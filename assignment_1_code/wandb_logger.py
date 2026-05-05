@@ -2,7 +2,7 @@ import torch
 import wandb
 from typing import Dict
 
-wandb.login(key="your wandb key")
+# wandb.login(key="your wandb key")
 class WandBLogger:
 
     def __init__(self, enabled=True, 
