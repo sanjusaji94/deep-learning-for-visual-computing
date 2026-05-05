@@ -18,5 +18,5 @@ LOG_DIR = ROOT_DIR / "logs"
 MODEL_SAVE_DIR = ROOT_DIR / "saved_models"
 
 # Create folders automatically if they do not exist.
-LOG_DIR.mkdir(exist_ok=True)
-MODEL_SAVE_DIR.mkdir(exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+MODEL_SAVE_DIR.mkdir(parents=True, exist_ok=True)
